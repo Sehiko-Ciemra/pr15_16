@@ -1,0 +1,41 @@
+.profiles-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profiles-page h1 {
+  color: #0f261e; 
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #fcfaf0; 
+  padding: 10px 30px;
+  border: 2px solid #0f261e;
+  box-shadow: 6px 6px 0px #0f261e;
+  font-family: Arial, sans-serif;
+}
+
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px; 
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .profiles-page h1 {
+    font-size: 24px;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+  }
+  .profiles-container {
+    gap: 40px;
+    padding: 10px;
+  }
+}
