@@ -2,11 +2,15 @@ import React from 'react';
 import './Profiles.css';
 import ProfileCard from './ProfileCard';
 
+import annaAvatar from './assets/anna.webp';
+import oleksiiAvatar from './assets/oleksii.webp';
+import mariiaAvatar from './assets/mariia.webp';
+
 function Profiles() {
   const users = [
     {
       id: 1,
-      avatar: 'https://i.pinimg.com/736x/4e/68/e8/4e68e8d5905040f8ac4c21e38a330c94.jpg',
+      avatar: annaAvatar,
       name: 'Анна Коваленко',
       role: 'Frontend Developer',
       location: 'Київ',
@@ -17,7 +21,7 @@ function Profiles() {
     },
     {
       id: 2,
-      avatar: 'https://i.pinimg.com/736x/2f/fa/fe/2ffafeed870f46e31aabc3e0ef8f3c31.jpg',
+      avatar: oleksiiAvatar,
       name: 'Олексій Петренко',
       role: 'UI/UX Designer',
       location: 'Львів',
@@ -28,7 +32,7 @@ function Profiles() {
     },
     {
       id: 3,
-      avatar: 'https://i.pinimg.com/736x/6f/8d/c1/6f8dc1639856b1d054c553ba75cc90d9.jpg',
+      avatar: mariiaAvatar,
       name: 'Марія Бондаренко',
       role: 'React Developer',
       location: 'Одеса',

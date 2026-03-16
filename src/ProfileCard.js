@@ -6,9 +6,13 @@ function ProfileCard(props) {
   return (
     <div className="profile-card">
       <img
-        src={props.avatar}
-        alt={props.name}
         className="profile-avatar"
+        src={props.avatar}
+        alt={`Аватар користувача ${props.name}`}
+        loading="lazy"
+        width="110"
+        height="110"
+        decoding="async"
       />
 
       <h2 className="profile-name">{props.name}</h2>

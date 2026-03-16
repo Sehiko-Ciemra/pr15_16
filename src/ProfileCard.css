@@ -39,13 +39,14 @@
   height: 110px;
   border-radius: 0;
   object-fit: cover;
-  margin: 25px auto 0; 
+  margin: 25px auto 0;
   position: relative;
   z-index: 1;
-  border: 2px solid #0f261e; 
+  border: 2px solid #0f261e;
   background: #fcfaf0;
   padding: 4px;
   box-shadow: 4px 4px 0px #0f261e;
+  display: block;
 }
 
 .profile-name {
